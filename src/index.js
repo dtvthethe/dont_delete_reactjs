@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Car1 from './Car1';
-import Car2 from './Car2';
+// import App from './App';
+// import PropCar from './PropCar';
+import PropExample from './PropExample';
+
+const data = ['laptop', 'mobile', 'accessories'];
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const car2 = <Car2/>
-
 root.render(
-  <Car1 />
+  // <App />
+  // <PropCar />
+  <PropExample list={data} />
 );
